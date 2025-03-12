@@ -1,3 +1,5 @@
+ // Refrence type
+ // initilization manually
 class Developer {
     var name : String? // ? for optional
     var jobTitle : String?
