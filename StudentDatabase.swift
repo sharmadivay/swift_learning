@@ -57,13 +57,14 @@ let showStudents  = {
 
 print("Welcome to Students records")
 
-  print("\n1. Add a Student")
-  print("2. Calculate the average score of all students.")
-  print("3. Display all student names with their scores.")
-  print("4. Filter students who scored above a certain threshold.")
-  print("5. Exit")
- var inpValue = 0
- while( inpValue != 5 ){
+print("\n1. Add a Student")
+print("2. Calculate the average score of all students.")
+print("3. Display all student names with their scores.")
+print("4. Filter students who scored above a certain threshold.")
+print("5. Exit")
+
+var inpValue = 0
+while( inpValue != 5 ){
      print("Enter your choice : " , terminator : "")
      if let value = readLine() , let inpvalue = Int(value){
       inpValue = inpvalue
